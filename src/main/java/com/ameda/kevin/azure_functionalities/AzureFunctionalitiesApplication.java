@@ -14,7 +14,7 @@ public class AzureFunctionalitiesApplication {
 	public ResponseEntity<?> message(){
 		return ResponseEntity
 				.ok()
-				.body("Congrats! your app deployed successfully on Azure");
+				.body("You're truly a genius Kevin Ameda!!!");
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(AzureFunctionalitiesApplication.class, args);
