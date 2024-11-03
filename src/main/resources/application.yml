@@ -1,3 +1,5 @@
 spring:
   application:
     name: azure-services
+server:
+  port: 8080
